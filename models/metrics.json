@@ -1,0 +1,132 @@
+{
+  "classification": {
+    "results": {
+      "Logistic Regression": {
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "train_time_sec": 0.059
+      },
+      "Random Forest": {
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "train_time_sec": 0.409
+      },
+      "Support Vector Machine": {
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "train_time_sec": 2.189
+      },
+      "Naive Bayes": {
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "train_time_sec": 0.002
+      }
+    },
+    "best_model": "Logistic Regression",
+    "confusion_matrix": [
+      [
+        24,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        24,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        24,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        24,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        24,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        24,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        24
+      ]
+    ],
+    "classes": [
+      "AI Engineer",
+      "Cloud Engineer",
+      "Data Scientist",
+      "DevOps Engineer",
+      "Java Developer",
+      "Software Engineer",
+      "Web Developer"
+    ]
+  },
+  "regression": {
+    "results": {
+      "Linear Regression": {
+        "mae": 6.446,
+        "rmse": 7.965,
+        "r2_score": -0.4081,
+        "train_time_sec": 0.247
+      },
+      "Random Forest Regressor": {
+        "mae": 4.07,
+        "rmse": 4.784,
+        "r2_score": 0.492,
+        "train_time_sec": 11.163
+      },
+      "Gradient Boosting Regressor": {
+        "mae": 3.978,
+        "rmse": 4.672,
+        "r2_score": 0.5156,
+        "train_time_sec": 2.5
+      }
+    },
+    "best_model": "Gradient Boosting Regressor"
+  }
+}
